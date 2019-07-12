@@ -1,0 +1,11 @@
+/       -----   GET
+--
+cars data
+
+/cars       -----   GET
+------
+cars data
+
+/addcar       -----   GET
+-------
+car form page

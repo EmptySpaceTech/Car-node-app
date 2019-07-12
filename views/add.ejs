@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add Cars | Cars</title>
+  </head>
+  <body>
+    <h2>New Car</h2>
+    <form action="/addcar" method="post">
+      <input type="text" name="name" placeholder="Car Name " required><br><br>
+      <input type="text" name="company" placeholder="company" required><br><br>
+      <select name="type">
+        <option>TYPE</option>
+        <option value="SUV">SUV</option>
+        <option value="SEDAN">SEDAN</option>
+        <option value="HATCH BACK">HATCH BACK</option>
+        <option value="MPV">MPV</option>
+      </select><br><br>
+      <input type="text" name="image" placeholder="image link"><br><br>
+      <input type="submit" value="Add Car">
+    </form>
+  </body>
+</html>

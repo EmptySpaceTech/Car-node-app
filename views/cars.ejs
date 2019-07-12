@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>CARS - DATA</h1>
+    <a href="/addcar">Add New Cars</a>
+    <br><br>
+
+    <% carsdata.forEach(function(car){ %>
+      <h3> <%=car.name%> </h3>
+      <h3> <%=car.company%> </h3>
+      <h3> <%=car.type%> </h3>
+      <img src="<%=car.image%>">
+      <br><br><hr><br>
+    <% }); %>
+
+  </body>
+</html>
