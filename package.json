@@ -1,17 +1,30 @@
 {
   "name": "cars",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Node Application For Automobile Details",
+  "engines": {
+    "node": "8.11.3"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "node test.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "mongoose": "^5.6.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EmptySpaceTech/Car-node-app"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Mohammed Shaheem P",
+  "license": "ISC"
 }
